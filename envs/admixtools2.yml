@@ -12,4 +12,4 @@ dependencies:
   - conda-forge::r-plotly
 
 ## The following packages are installed manually, because they are not available on conda-forge.
-## $ R -e "remotes::install_github('uqrmaie1/admixtools', ref='v2.0.4')"
+## $ conda activate admixtools2 && R -e "remotes::install_github('uqrmaie1/admixtools', ref='v2.0.4')"
