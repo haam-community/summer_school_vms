@@ -9,7 +9,7 @@ dependencies:
   - conda-forge::r-base=4.3.3
   - conda-forge::r-devtools
   - conda-forge::r-tidyverse
-  - conda-forge::r-naturalearth
+  - conda-forge::r-rnaturalearth
   - conda-forge::r-sf
   # - conda-forge::r-smartsnp ## Installed manually, because could not get it on conda-forge in time.
 
