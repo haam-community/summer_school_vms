@@ -14,4 +14,4 @@ dependencies:
   # - conda-forge::r-smartsnp ## Installed manually, because could not get it on conda-forge in time.
 
 ## The following packages are installed manually, because they are not available on conda-forge.
-## $ conda activate admixtools2 && R -e "install.packages('smartsnp')" && R -e "remotes::install_github('poseidon-framework/janno', ref="0.1.44")"
+## $ conda activate poseidon && R -e "install.packages('smartsnp', repos='http://cran.us.r-project.org')" && R -e "remotes::install_github('poseidon-framework/janno', ref='76e45e6')" && conda deactivate

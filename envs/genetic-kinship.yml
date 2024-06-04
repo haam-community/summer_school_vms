@@ -28,4 +28,4 @@ dependencies:
 ##    cd Kinship_Inference-3.1.3 && \
 ##    pip install ./pypackage/kin && \
 ##    pip install ./pypackage/kingaroo && \
-##    cd .. && rm -r Kinship_Inference-3.1.3 && rm v3.1.3.tar.gz
+##    cd .. && rm -r Kinship_Inference-3.1.3 && rm v3.1.3.tar.gz && conda deactivate
