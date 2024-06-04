@@ -1,0 +1,13 @@
+name: unsupervised-analyses
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::emu-pca
+  - bioconda::plink
+  - bioconda::eigensoft
+  - bioconda::admixture
+  - conda-forge::r-base
+  - conda-forge::r-tidyverse
+  - conda-forge::r-ggrepel

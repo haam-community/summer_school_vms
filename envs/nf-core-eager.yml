@@ -1,0 +1,9 @@
+name: nf-core-eager
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::nextflow=22.10.6
+  - bioconda::nf-core
+  - bioconda::samtools

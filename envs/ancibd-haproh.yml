@@ -1,0 +1,12 @@
+name: ancibd-haproh
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+- pip
+- conda-forge::cython
+- conda-forge::jupyterlab=4.2.1 ## JupyterLab warns about breaking changes between versions, so fixed
+- pip:
+    - ancibd
+    - haproh
