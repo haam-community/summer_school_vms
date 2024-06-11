@@ -11,7 +11,7 @@ dependencies:
   - conda-forge::r-tidyverse
   - conda-forge::r-ggpubr
   - pip                        ## for KIN
-  - conda-forge::python>=3.8   ## for KIN
+  - conda-forge::python=3.8   ## for KIN
   - conda-forge::scipy         ## for KIN
   - conda-forge::numpy         ## for KIN
   - conda-forge::pandas        ## for KIN
