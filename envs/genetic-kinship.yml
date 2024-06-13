@@ -6,6 +6,7 @@ channels:
 dependencies:
   - bioconda::kinship-read
   - bioconda::samtools
+  - bioconda::plink
   # - bioconda::poseidon-trident ## Installed centrally so it will be available across sessions
   - conda-forge::r-base=4.3.3
   - conda-forge::r-tidyverse
