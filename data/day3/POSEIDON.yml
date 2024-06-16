@@ -1,0 +1,18 @@
+poseidonVersion: 2.7.1
+title: day3
+description: Training dataset compiled for the HAAM Summer School 2024
+packageVersion: 0.1.0
+lastModified: 2024-06-13
+contributor:
+  - name: Marina Soares Da Silva
+    email: marina.silva@crick.ac.uk
+  - name: Clemens Schmid
+    email: clemens_schmid@eva.mpg.de
+genotypeData:
+  format: PLINK
+  genoFile: day3.bed
+  snpFile: day3.bim
+  indFile: day3.fam
+  snpSet: HumanOrigins
+jannoFile: day3.janno
+bibFile: day3.bib
