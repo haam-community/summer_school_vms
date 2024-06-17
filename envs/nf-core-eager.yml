@@ -7,3 +7,6 @@ dependencies:
   - bioconda::nextflow=22.10.6
   - bioconda::nf-core
   - bioconda::samtools
+
+## Then ensure nf-core eager is pre-downloaded, so GH does not rate limit the IP address
+## $ conda activate nf-core-eager && nextflow pull nf-core/eager && conda deactivate
