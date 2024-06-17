@@ -1,0 +1,4 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM
+Ksiaznice_gr-3ZC-4	Ksiaznice_gr-3ZC-4	1	4	SE	Human	double	none	NA	NA	/vol/volume/nf-core-eager/data/Ksiaznice_gr-3ZC_ind-4_final.bam
+Ksiaznice_gr-3ZC-7	Ksiaznice_gr-3ZC-7	1	4	SE	Human	double	none	NA	NA	/vol/volume/nf-core-eager/data/Ksiaznice_gr-3ZC_ind-7_final.bam
+Mierzanowice-1_gr-3	Mierzanowice-1_gr-3	1	4	SE	Human	double	none	NA	NA	volume/nf-core-eager/data/Mierzanowice-1_gr-3_final.bam
