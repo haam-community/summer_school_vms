@@ -1,0 +1,4 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM
+LEU008	LEU008.A0101	6	4	SE	Human	double	half	/vol/volume/nf-core-eager/data/LEU008.A0101.MT1.1_S0_L006_R1_001.fastq.gz	NA	NA
+LEU012	LEU012.A0101	6	4	SE	Human	double	half	/vol/volume/nf-core-eager/data/LEU012.A0101.MT1.1_S0_L006_R1_001.fastq.gz	NA	NA
+LEU013	LEU013.A0101	6	4	SE	Human	double	half	/vol/volume/nf-core-eager/data/LEU013.A0101.MT1.1_S0_L006_R1_001.fastq.gz	NA	NA
