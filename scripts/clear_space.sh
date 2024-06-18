@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 ## Clear directories with raw ENA data
-rm -r /vol/volume/ena-data/
+rm -rf /vol/volume/ena-data/
 
 ## Clear directories with eager resources, but not results
-rm -r /vol/volume/nf-core-eager/reference
-rm -r /vol/volume/nf-core-eager/data
+rm -rf /vol/volume/nf-core-eager/reference
+rm -rf /vol/volume/nf-core-eager/data
 
 ## Clear directories with KIN intermediate data
-rm -r /vol/volume/genetic-kinship/practical/KIN/data/
-rm -r /vol/volume/genetic-kinship/practical/KIN/splitbams/
+rm -rf /vol/volume/genetic-kinship/practical/Schroeder_Poland_subset
+rm -rf /vol/volume/genetic-kinship/practical/KIN/splitbams/
