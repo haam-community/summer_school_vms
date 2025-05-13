@@ -7,26 +7,8 @@ dependencies:
   - bioconda::kinship-read
   - bioconda::samtools
   - bioconda::plink
+  - bioconda::kin
   # - bioconda::poseidon-trident ## Installed centrally so it will be available across sessions
   - conda-forge::r-base=4.3.3
   - conda-forge::r-tidyverse
   - conda-forge::r-ggpubr
-  - pip                        ## for KIN
-  - conda-forge::python=3.8   ## for KIN
-  - conda-forge::scipy         ## for KIN
-  - conda-forge::numpy         ## for KIN
-  - conda-forge::pandas        ## for KIN
-  - conda-forge::numba         ## for KIN
-  - bioconda::pysam            ## for KIN
-  - bioconda::pybedtools       ## for KIN
-  - bioconda::samtools         ## for KIN
-  - bioconda::bcftools         ## for KIN
-
-## The following packages are installed manually, because they are not available on conda-forge.
-## $ conda activate genetic-kinship && \
-##    wget https://github.com/DivyaratanPopli/Kinship_Inference/archive/refs/tags/v3.1.3.tar.gz && \
-##    tar -xvf v3.1.3.tar.gz && \
-##    cd Kinship_Inference-3.1.3 && \
-##    pip install ./pypackage/kin && \
-##    pip install ./pypackage/kingaroo && \
-##    cd .. && rm -r Kinship_Inference-3.1.3 && rm v3.1.3.tar.gz && conda deactivate
