@@ -1,4 +1,4 @@
-name: ancibd-haproh
+name: haproh
 channels:
   - conda-forge
   - bioconda
