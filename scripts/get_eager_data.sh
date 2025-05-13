@@ -16,3 +16,6 @@ ena_ftp_links=(
 for fn in ${ena_ftp_links[@]}; do
     wget -L ${fn}
 done
+
+## Also download the prepared samplesheets
+wget https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/data/eager/samplesheet_{sg,mt}.tsv
