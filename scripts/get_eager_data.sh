@@ -19,3 +19,16 @@ done
 
 ## Also download the prepared samplesheets
 wget https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/data/eager/samplesheet_{sg,mt}.tsv
+
+## Download the hs37d5 reference genome
+wget ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference//phase2_reference_assembly_sequence/hs37d5.fa.gz
+
+if [[ $(md5sum hs37d5.fa.gz | awk '{print $1}') == "a07c7647c4f2e78977068e9a4a31af15" ]]; then
+    ## This gives a warning "decompression OK, trailing garbage ignored". That's fine.
+    gzip -d hs37d5.fa.gz
+    if [[ $(md5sum hs37d5.fa | awk '{print $1}') != "12a0bed94078e2d9e8c00da793bbc84e" ]]; then
+        echo "'hs37d5.fa': md5sum mismatch, please check the file"
+    fi
+else
+    echo "'hs37d5.fa.gz': md5sum mismatch, please check the file"
+fi
