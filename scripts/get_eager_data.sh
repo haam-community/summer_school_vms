@@ -19,3 +19,29 @@ done
 
 ## Also download the prepared samplesheets
 wget https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/data/eager/samplesheet_{sg,mt}.tsv
+
+mkdir -p /vol/volume/nf-core-eager/reference
+cd /vol/volume/nf-core-eager/reference
+## Download the hs37d5 reference genome
+wget ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference//phase2_reference_assembly_sequence/hs37d5.fa.gz
+
+if [[ $(md5sum hs37d5.fa.gz | awk '{print $1}') == "a07c7647c4f2e78977068e9a4a31af15" ]]; then
+    ## This gives a warning "decompression OK, trailing garbage ignored". That's fine.
+    gzip -d hs37d5.fa.gz
+    if [[ $(md5sum hs37d5.fa | awk '{print $1}') != "12a0bed94078e2d9e8c00da793bbc84e" ]]; then
+        echo "'hs37d5.fa': md5sum mismatch, please check the file"
+    fi
+else
+    echo "'hs37d5.fa.gz': md5sum mismatch, please check the file"
+fi
+
+## Download the 1240K hs37d5 snp and bed files and their md5sums
+wget https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/data/eager/1240K_hs37d5.{bed.gz,snp.gz,md5}
+
+md5sum -c 1240K_hs37d5.md5
+if [[ $? -ne 0 ]]; then
+    echo "'1240K_hs37d5.bed.gz' or '1240K_hs37d5.snp.gz': md5sum mismatch, please check the files"
+else
+    gzip -d 1240K_hs37d5.bed.gz
+    gzip -d 1240K_hs37d5.snp.gz
+fi

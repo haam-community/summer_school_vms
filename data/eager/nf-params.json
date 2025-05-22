@@ -1,0 +1,19 @@
+{
+    "input": "samplesheet_sg.tsv",
+    "skip_fastqc": true,
+    "skip_adapterremoval": true,
+    "skip_preseq": true,
+    "skip_deduplication": true,
+    "run_bam_filtering": true,
+    "bam_mapping_quality_threshold": 30,
+    "bam_filter_minreadlength": 30,
+    "run_trim_bam": true,
+    "bamutils_clip_double_stranded_none_udg_left": 10,
+    "bamutils_clip_double_stranded_none_udg_right": 10,
+    "run_genotyping": true,
+    "genotyping_tool": "pileupcaller",
+    "genotyping_source": "trimmed",
+    "run_mtnucratio": true,
+    "run_sexdeterrmine": true,
+    "run_nuclear_contamination": true
+}
