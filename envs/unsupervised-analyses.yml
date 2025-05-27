@@ -8,6 +8,7 @@ dependencies:
   - bioconda::plink
   - bioconda::eigensoft
   - bioconda::admixture
+  - bioconda::angsd
   - conda-forge::r-base
   - conda-forge::r-tidyverse
   - conda-forge::r-ggrepel
