@@ -11,6 +11,11 @@ ena_ftp_links=(
     "ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3503742/Ksiaznice_gr-3ZC_ind-4_final.bam"
     "ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3503741/Ksiaznice_gr-3ZC_ind-7_final.bam"
     "ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3503747/Mierzanowice-1_gr-3_final.bam"
+    "ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3503727/Koszyce-3_3_final.bam"
+    "ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3503726/Koszyce-3_2_final.bam"
+    "ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3503730/Koszyce-3_6_final.bam"
+    "ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3503734/Koszyce-3_10_final.bam"
+    "ftp.sra.ebi.ac.uk/vol1/run/ERR350/ERR3503735/Koszyce-3_11_final.bam"
     )
 
 for fn in ${ena_ftp_links[@]}; do
