@@ -8,6 +8,7 @@ dependencies:
 - conda-forge::cython=0.29
 - conda-forge::jupyterlab=4.2.1 ## JupyterLab warns about breaking changes between versions, so fixed
 - pip:
+    - statsmodels==0.14
     - ancibd==0.6
     - haproh==0.64
     - matplotlib==3.7.3 ## Latest version has changed some code that breaks one plotting function, so hard-code version for now.
