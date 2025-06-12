@@ -7,5 +7,6 @@ rm -rf /vol/volume/nf-core-eager/analys{i,e}s/
 rm -rf /vol/volume/nf-core-eager/work/
 
 ## Clear directories with KIN intermediate data
-# rm -rf /vol/volume/genetic-kinship/practical/Schroeder_Poland_subset
-# rm -rf /vol/volume/genetic-kinship/practical/KIN/splitbams/
+## This gets activated after the genetic kinshp sessions are completed
+rm -rf /vol/volume/genetic-kinship/practical/Schroeder_Poland_subset
+rm -rf /vol/volume/genetic-kinship/practical/KIN/splitbams/
