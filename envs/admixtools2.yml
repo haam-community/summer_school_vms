@@ -2,4 +2,3 @@ name: admixtools2
 channels:
   - conda-forge
   - bioconda
-  - defaults

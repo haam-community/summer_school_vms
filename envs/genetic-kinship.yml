@@ -2,7 +2,6 @@ name: genetic-kinship
 channels:
   - conda-forge
   - bioconda
-  - defaults
 dependencies:
   - bioconda::kinship-read
   - bioconda::samtools

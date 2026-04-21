@@ -2,7 +2,6 @@ name: unsupervised-analyses
 channels:
   - conda-forge
   - bioconda
-  - defaults
 dependencies:
   - bioconda::emu-pca
   - bioconda::plink

@@ -2,7 +2,6 @@ name: haproh
 channels:
   - conda-forge
   - bioconda
-  - defaults
 dependencies:
 - pip
 - conda-forge::cython=0.29
