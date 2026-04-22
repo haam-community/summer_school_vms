@@ -2,3 +2,6 @@ name: admixtools2
 channels:
   - conda-forge
   - bioconda
+dependencies:
+  - bioconda::admixtools
+  - bioconda::eigensoft
