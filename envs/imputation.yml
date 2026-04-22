@@ -1,0 +1,11 @@
+name: imputation
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::glimpse-bio
+  - bioconda::samtools
+  - bioconda::bcftools
+  - conda-forge::numpy
+  - conda-forge::pandas
+  - conda-forge::matplotlib
