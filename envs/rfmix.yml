@@ -4,3 +4,8 @@ channels:
   - bioconda
 dependencies:
   - bioconda::rfmix
+
+## Additional commands
+# curl -LO https://faculty.washington.edu/browning/refined-ibd/refined-ibd.17Jan20.102.jar ~/bin
+# echo -e '#!/usr/bin/env bash\n\njava -jar /home/ubuntu/bin/refined-ibd.17Jan20.102.jar $*' >~/bin/refined-ibd 
+# chmod +x ~/bin/refined-ibd
