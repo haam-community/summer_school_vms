@@ -50,3 +50,15 @@ else
     gzip -d 1240K_hs37d5.bed.gz
     gzip -d 1240K_hs37d5.snp.gz
 fi
+
+## Download MT fasta
+wget https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/data/eager/hs37d5_MT_only.fa.gz
+
+if [[ $(md5sum hs37d5_MT_only.fa.gz | awk '{print $1}') == "2e78b8351c2b57404fa816d2199b839e" ]]; then
+gzip -d hs37d5_MT_only.fa.gz
+    if [[ $(md5sum hs37d5_MT_only.fa | awk '{print $1}') != "2cdb867fe10343159e751d33ac7738da" ]]; then
+        echo "'hs37d5_MT_only.fa': md5sum mismatch, please check the file"
+    fi
+else
+    echo "'hs37d5_MT_only.fa.gz': md5sum mismatch, please check the file"
+fi
