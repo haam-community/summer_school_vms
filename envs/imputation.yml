@@ -9,3 +9,4 @@ dependencies:
   - conda-forge::numpy
   - conda-forge::pandas
   - conda-forge::matplotlib
+  - conda-forge::jupyterlab=4.2.1 ## JupyterLab warns about breaking changes between versions, so fixed
