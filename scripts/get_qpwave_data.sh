@@ -8,4 +8,4 @@ else
     cd ~
 fi
 
-unzip -d /vol/volume/qpwave-qpadm-qpgraph/ ~/summer_school_vms/data/qpwave-qpadm-qpgraph/AADR.zip
+unzip -d /vol/volume/qpwave-qpadm-qpgraph/ ~/summer_school_vms/data/admixtools2/AADR.zip
