@@ -3,7 +3,7 @@ cd ~
 if [[ ! -d ~/summer_school_vms ]]; then
     git clone https://github.com/haam-community/summer_school_vms.git & git lfs pull --include "data/admixtools2/AADR.zip"
 else
-    cd ~/summer_school_vms &&
+    cd ~/summer_school_vms
     git lfs pull --include "data/admixtools2/AADR.zip"
     cd ~
 fi
