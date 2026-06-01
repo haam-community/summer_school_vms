@@ -13,3 +13,6 @@ curl -L https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/
 
 ## Add plink to the path for use in imputation (since it was not added to the environment, as it should have been).
 echo 'alias plink="/home/ubuntu/bin/miniconda3/envs/genetic-kinship/bin/plink"' >> ~/.bashrc
+
+## Then delete the cloned repository, since we don't need it anymore.
+rm -r ~/summer_school_vms
