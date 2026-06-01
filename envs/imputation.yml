@@ -6,6 +6,7 @@ dependencies:
   - bioconda::glimpse-bio
   - bioconda::samtools
   - bioconda::bcftools
+  - bioconda::plink
   - conda-forge::numpy
   - conda-forge::pandas
   - conda-forge::matplotlib
