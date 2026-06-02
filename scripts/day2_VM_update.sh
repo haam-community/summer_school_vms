@@ -10,6 +10,7 @@ else
 fi
 
 curl -L https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/scripts/get_qpwave_data.sh | bash
+curl -L https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/scripts/get_unsupervised_analysis_data.sh | bash
 
 ## Add plink to the path for use in imputation (since it was not added to the environment, as it should have been).
 echo 'alias plink="/home/ubuntu/bin/miniconda3/envs/genetic-kinship/bin/plink"' >> ~/.bashrc
