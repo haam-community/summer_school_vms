@@ -2,7 +2,7 @@
 
 cd ~
 if [[ ! -d ~/summer_school_vms ]]; then
-    git clone https://github.com/haam-community/summer_school_vms.git
+    GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/haam-community/summer_school_vms.git
 else
     cd ~/summer_school_vms
     git pull
