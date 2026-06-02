@@ -7,7 +7,7 @@ trident fetch -d /vol/volume/packages-poseidon -f '*2023_Skourtanioti_Aegean-1.0
 ## Then pull VM_resources repo with git lfs and extract the 1000G HDF5 files for haproh, adn the day3_package.
 cd ~
 if [[ ! -d ~/summer_school_vms ]]; then
-    git clone https://github.com/haam-community/summer_school_vms.git & git lfs pull
+    GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/haam-community/summer_school_vms.git & git lfs pull
 
 ## Copy over day_3 package
 cp -r ~/summer_school_vms/data/day3_pkg/ /vol/volume/packages-poseidon/

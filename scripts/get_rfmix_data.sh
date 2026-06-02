@@ -1,7 +1,7 @@
 ## Pull the summer school setup repo if not already done, then extract the zip of rfmix files into the mounted volume.
 cd ~
 if [[ ! -d ~/summer_school_vms ]]; then
-    git clone https://github.com/haam-community/summer_school_vms.git & git lfs pull
+    GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/haam-community/summer_school_vms.git & git lfs pull
 fi
 
 unzip -d /vol/volume/rfmix/ ~/summer_school_vms/data/rfmix/rfmix_dataset.zip
