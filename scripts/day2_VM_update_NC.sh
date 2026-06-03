@@ -14,5 +14,7 @@ mkdir -p /vol/volume/unsupervised_analyses
 curl -L https://share.eva.mpg.de/index.php/s/qwXm5Ms4n762a56 -o ~/Data_ADMIX.tar.gz && tar -xzf ~/Data_ADMIX.tar.gz -C /vol/volume/unsupervised_analyses/ && rm ~/Data_ADMIX.tar.gz
 curl -L https://share.eva.mpg.de/index.php/s/Ycr73PLdLJDYQr2 -o ~/Data_MDS_PCA.tar.gz && tar -xzf ~/Data_MDS_PCA.tar.gz -C /vol/volume/unsupervised_analyses/ && rm ~/Data_MDS_PCA.tar.gz
 
+## ancibd skipped, since it is updated in day 3 anyway.
+
 ## Add plink to the path for use in imputation (since it was not added to the environment, as it should have been).
 echo 'alias plink="/home/ubuntu/bin/miniconda3/envs/genetic-kinship/bin/plink"' >> ~/.bashrc
