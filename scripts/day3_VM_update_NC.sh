@@ -12,6 +12,7 @@ rm -r /vol/volume/haproh/*
 rm -r /vol/volume/rfmix-ibd/*
 
 ## ancibd dataset
+mkdir -p /vol/volume/ancibd
 curl -L https://share.eva.mpg.de/index.php/s/QwtpK3teFoyfjyx -o ~/ancibd_dataset.zip && unzip -d /vol/volume/ancibd/ ~/ancibd_dataset.zip && rm ~/ancibd_dataset.zip
 
 ## haproh dataset
