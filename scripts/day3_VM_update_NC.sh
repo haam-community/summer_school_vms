@@ -13,10 +13,10 @@ rm -r /vol/volume/rfmix-ibd/*
 
 ## ancibd dataset
 mkdir -p /vol/volume/ancibd
-curl -JL https://share.eva.mpg.de/index.php/s/QwtpK3teFoyfjyx/download -o ~/ancibd_dataset.zip && unzip -d /vol/volume/ancibd/ ~/ancibd_dataset.zip && rm ~/ancibd_dataset.zip
+curl -JL https://share.eva.mpg.de/index.php/s/QwtpK3teFoyfjyx/download -o ~/ancibd_dataset.zip && wait && unzip -d /vol/volume/ancibd/ ~/ancibd_dataset.zip && rm ~/ancibd_dataset.zip
 
 ## haproh dataset
-curl -JL https://share.eva.mpg.de/index.php/s/rDL25zw9ixbGpWA/download -o ~/haproh_dataset.zip && unzip -d /vol/volume/haproh/ ~/haproh_dataset.zip && rm ~/haproh_dataset.zip
+curl -JL https://share.eva.mpg.de/index.php/s/rDL25zw9ixbGpWA/download -o ~/haproh_dataset.zip && wait && unzip -d /vol/volume/haproh/ ~/haproh_dataset.zip && rm ~/haproh_dataset.zip
 
 ## rfmix dataset
-curl -JL https://share.eva.mpg.de/index.php/s/fWjkJfdGtjC4QbJ/download -o ~/rfmix_dataset.zip && unzip -d /vol/volume/rfmix-ibd/ ~/rfmix_dataset.zip && rm ~/rfmix_dataset.zip
+curl -JL https://share.eva.mpg.de/index.php/s/fWjkJfdGtjC4QbJ/download -o ~/rfmix_dataset.zip && wait && unzip -d /vol/volume/rfmix-ibd/ ~/rfmix_dataset.zip && rm ~/rfmix_dataset.zip
