@@ -2,7 +2,7 @@
 
 ## NOTE: In day 3, the git LFS budget had been spent,
 ##    so I uploaded all the datasets to nextcloud and had students download them through that.
-##    See script day2_VM_update_NC.sh for that code.
+##    See script day3_VM_update_NC.sh for that code.
 
 cd ~
 if [[ ! -d ~/summer_school_vms ]]; then
@@ -13,12 +13,10 @@ else
     cd ~
 fi
 
-curl -L https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/scripts/get_qpwave_data.sh | bash
-curl -L https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/scripts/get_unsupervised_analysis_data.sh | bash
+curl -L https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/scripts/get_rfmix_data.sh | bash
+#haproh/ancibd dataset update
+curl -L https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/scripts/get_haproh_data_new.sh | bash
 curl -L https://raw.githubusercontent.com/haam-community/summer_school_vms/refs/heads/main/scripts/get_ancibd_data.sh | bash
-
-## Add plink to the path for use in imputation (since it was not added to the environment, as it should have been).
-echo 'alias plink="/home/ubuntu/bin/miniconda3/envs/genetic-kinship/bin/plink"' >> ~/.bashrc
 
 ## Then delete the cloned repository, since we don't need it anymore.
 rm -r ~/summer_school_vms
