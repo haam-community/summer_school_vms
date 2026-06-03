@@ -7,7 +7,7 @@
 cd ~
 
 ## qpWave/Adm/Graph dataset
-curl -JL https://share.eva.mpg.de/index.php/s/RrBt8QdKGzAbncq/download -o ~/AADR.zip && wait && unzip -d /vol/volume/AADR/ ~/AADR.zip && rm ~/AADR.zip
+curl -JL https://share.eva.mpg.de/index.php/s/RrBt8QdKGzAbncq/download -o ~/AADR.zip && wait && unzip -d /vol/volume/qpwave-qpadm-qpgraph/ ~/AADR.zip && rm ~/AADR.zip
 
 ## Unsupervised analysis dataset
 mkdir -p /vol/volume/unsupervised_analyses
