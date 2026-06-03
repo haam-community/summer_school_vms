@@ -7,12 +7,12 @@
 cd ~
 
 ## qpWave/Adm/Graph dataset
-curl -L https://share.eva.mpg.de/index.php/s/Fczw5m2rnapPaDw -o ~/AADR.zip && unzip -d /vol/volume/AADR/ ~/AADR.zip && rm ~/AADR.zip
+curl -JL https://share.eva.mpg.de/index.php/s/RrBt8QdKGzAbncq/download -o ~/AADR.zip && wait && unzip -d /vol/volume/AADR/ ~/AADR.zip && rm ~/AADR.zip
 
 ## Unsupervised analysis dataset
 mkdir -p /vol/volume/unsupervised_analyses
-curl -L https://share.eva.mpg.de/index.php/s/qwXm5Ms4n762a56 -o ~/Data_ADMIX.tar.gz && tar -xzf ~/Data_ADMIX.tar.gz -C /vol/volume/unsupervised_analyses/ && rm ~/Data_ADMIX.tar.gz
-curl -L https://share.eva.mpg.de/index.php/s/Ycr73PLdLJDYQr2 -o ~/Data_MDS_PCA.tar.gz && tar -xzf ~/Data_MDS_PCA.tar.gz -C /vol/volume/unsupervised_analyses/ && rm ~/Data_MDS_PCA.tar.gz
+curl -JL https://share.eva.mpg.de/index.php/s/qwXm5Ms4n762a56/download -o ~/Data_ADMIX.tar.gz && wait && tar -xzf ~/Data_ADMIX.tar.gz -C /vol/volume/unsupervised_analyses/ && rm ~/Data_ADMIX.tar.gz
+curl -JL https://share.eva.mpg.de/index.php/s/Ycr73PLdLJDYQr2/download -o ~/Data_MDS_PCA.tar.gz && wait && tar -xzf ~/Data_MDS_PCA.tar.gz -C /vol/volume/unsupervised_analyses/ && rm ~/Data_MDS_PCA.tar.gz
 
 ## ancibd skipped, since it is updated in day 3 anyway.
 
