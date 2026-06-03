@@ -10,6 +10,7 @@ cd ~
 curl -L https://share.eva.mpg.de/index.php/s/Fczw5m2rnapPaDw -o ~/AADR.zip && unzip -d /vol/volume/AADR/ ~/AADR.zip && rm ~/AADR.zip
 
 ## Unsupervised analysis dataset
+mkdir -p /vol/volume/unsupervised_analyses
 curl -L https://share.eva.mpg.de/index.php/s/qwXm5Ms4n762a56 -o ~/Data_ADMIX.tar.gz && tar -xzf ~/Data_ADMIX.tar.gz -C /vol/volume/unsupervised_analyses/ && rm ~/Data_ADMIX.tar.gz
 curl -L https://share.eva.mpg.de/index.php/s/Ycr73PLdLJDYQr2 -o ~/Data_MDS_PCA.tar.gz && tar -xzf ~/Data_MDS_PCA.tar.gz -C /vol/volume/unsupervised_analyses/ && rm ~/Data_MDS_PCA.tar.gz
 
